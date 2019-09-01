@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\camera_Controller.cs" />
     <Compile Include="Assets\Scripts\Player\player_Controller.cs" />
+    <Compile Include="Assets\Scripts\Player\player_Motor.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/zach/Documents/GitHub/undecided-origins/Undecided Origins/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

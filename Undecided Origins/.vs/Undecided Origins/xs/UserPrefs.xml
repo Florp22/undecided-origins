@@ -1,20 +1,14 @@
 ﻿<Properties StartupConfiguration="{22E179D3-82E6-9558-1F58-3B3F35477104}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera/camera_Controller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/player_Controller.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player/player_Controller.cs" Line="28" Column="109" />
+      <File FileName="Assets/Scripts/Player/player_Controller.cs" Line="8" Column="29" />
       <File FileName="Assets/Scripts/Camera/camera_Controller.cs" Line="4" Column="24" />
+      <File FileName="Assets/Scripts/Player/player_Motor.cs" Line="19" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Undecided Origins" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="85147c34-52c6-455e-804c-7c8c0c715312" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ae53a46d-fec5-4e82-9e68-4914d881d962" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

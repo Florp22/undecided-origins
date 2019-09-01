@@ -4,34 +4,34 @@ using UnityEngine;
 
 public class player_Controller : MonoBehaviour
 {
-    public Rigidbody playerRB;
-    public float playerSpeed;
-    private float horizAxis;
-    private float vertAxis;
-
+    public Camera cam;
+    public LayerMask movementMask;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        cam = Camera.main;
     }
 
     // Update is called once per frame
     void Update()
     {
-		if (Input.GetMouseButtonDown(1))
-		{
-			float mouseInput = Input.GetAxis("Mouse X");
-			Vector3 lookhere = new Vector3(0, mouseInput, 0);
-			transform.Rotate(lookhere);
-		}
+        if (Input.GetMouseButtonDown(0))
+        {
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, 100, movementMask))
+            {
+                // Move Player to what was hit
+                // Stop Focusing Objects
 
-		vertAxis = Input.GetAxis("Vertical");
+            }
+        }
     }
 
     private void LateUpdate()
     {
-        playerRB.velocity = new Vector3(playerRB.velocity.x, playerRB.velocity.y, vertAxis * playerSpeed);
+      
     }
 
 }

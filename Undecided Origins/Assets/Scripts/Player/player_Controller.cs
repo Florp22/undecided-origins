@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(player_Motor))]
 public class player_Controller : MonoBehaviour
 {
     public Camera cam;
     public LayerMask movementMask;
-
+    player_Motor motor;
     // Start is called before the first frame update
     void Start()
     {
         cam = Camera.main;
+        motor = GetComponent<player_Motor>();
     }
 
     // Update is called once per frame
@@ -22,7 +24,7 @@ public class player_Controller : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, 100, movementMask))
             {
-                // Move Player to what was hit
+                motor.MoveToPoint(hit.point);
                 // Stop Focusing Objects
 
             }

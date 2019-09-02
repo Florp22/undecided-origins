@@ -21,6 +21,6 @@ public class player_Motor : MonoBehaviour
     }
     public void MoveToPoint(Vector3 point)
     {
-        agent.SetDestination(agent);
+        agent.SetDestination(point);
     }
 }

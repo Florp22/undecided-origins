@@ -38,7 +38,7 @@ public class camera_Controller : MonoBehaviour
 		correctedDistance = distance;
 	}
 
-	void LateUpdate()
+	void Update()
 	{
 		if (Input.GetMouseButton(1))
 		{

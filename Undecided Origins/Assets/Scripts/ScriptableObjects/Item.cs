@@ -8,4 +8,10 @@ public class Item : ScriptableObject
 
     public bool isDefaultItem = false;
 
+    public virtual void Use()
+    {
+        //Use Item
+        //Stuff happens
+        Debug.Log("Using " + name);
+    }
 }

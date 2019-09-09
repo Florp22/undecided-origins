@@ -64,14 +64,17 @@
   <ItemGroup>
     <Compile Include="Assets\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\Camera\camera_Controller.cs" />
-    <Compile Include="Assets\Scripts\Interactable.cs" />
-    <Compile Include="Assets\Scripts\Inventory.cs" />
-    <Compile Include="Assets\Scripts\InventoryUI.cs" />
-    <Compile Include="Assets\Scripts\item_Pickup.cs" />
-    <Compile Include="Assets\Scripts\Player Creation\CreationManager.cs" />
+    <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Inventory\InventoryUI.cs" />
+    <Compile Include="Assets\Scripts\Items\Interactable.cs" />
+    <Compile Include="Assets\Scripts\Items\item_Pickup.cs" />
+    <Compile Include="Assets\Scripts\Player Creation\creationData.cs" />
+    <Compile Include="Assets\Scripts\Player Creation\creationSaveSystem.cs" />
+    <Compile Include="Assets\Scripts\Player Creation\creationUIManager.cs" />
+    <Compile Include="Assets\Scripts\Player Creation\statManager.cs" />
     <Compile Include="Assets\Scripts\Player\player_Controller.cs" />
     <Compile Include="Assets\Scripts\Player\player_Motor.cs" />
-    <Compile Include="Assets\Scripts\rankManager.cs" />
+    <Compile Include="Assets\Scripts\Player\rankManager.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Item.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

@@ -6,8 +6,8 @@ public class Item : ScriptableObject
     new public string name = "New Item";
     public Sprite Icon = null;
 
+    public bool isreqRank;
     public float reqRank;
-    public float recRank;
 
     public bool isStr;
     public bool isEnd;
@@ -25,4 +25,6 @@ public class Item : ScriptableObject
         //Stuff happens
         Debug.Log("Using " + name);
     }
+
+
 }

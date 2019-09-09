@@ -14,4 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Helm of Protection
   Icon: {fileID: 0}
+  isreqRank: 1
+  reqRank: 3
+  isStr: 1
+  isEnd: 0
+  isIntel: 0
+  isWis: 0
+  isDex: 0
   isDefaultItem: 0

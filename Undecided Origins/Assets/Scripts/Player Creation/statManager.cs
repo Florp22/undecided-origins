@@ -29,6 +29,7 @@ public class statManager : MonoBehaviour
     void Start()
     {
         totalPoints = startingPoints;
+        loadStats();
 
     }
 
